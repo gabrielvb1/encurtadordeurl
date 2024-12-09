@@ -1,0 +1,24 @@
+
+services:
+  backend:
+    build: .
+    container_name: backend
+    environment:
+      - DB_FILENAME=/app/database.db
+      - PORT=3033
+      - API_PASS=apisenha
+      - JWT_EXPIRES=8h
+    ports:
+      - "3033:3033"
+    volumes:
+      - ./database.db:/app/database.db
+    networks:
+      - app-network
+
+volumes:
+  sqlite-db:
+    driver: local
+
+networks:
+  app-network:
+    driver: bridge
