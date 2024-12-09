@@ -119,8 +119,11 @@ Após iniciar a API, você pode acessar a documentação Swagger em:
 
 ## **Testes**
 
-A API Conta com testes unitários de todos os endpoints. Para rodar os testes da API execute o comando:
-  ```bash
-   npm test
+1. A API Conta com testes unitários de todos os endpoints. Para rodar os testes da API execute o comando:
+     ```bash
+      npm test
+
+2. Também está disponível na raíz do projeto a coleção de todas as requisições necessárias com os payloads ja montados para facilitar o teste em uma plataforma de API (ex: Insomnia). Arquivo: **Insomnia_2024-12-09.json**
+
 
   
