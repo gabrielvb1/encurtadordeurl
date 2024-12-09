@@ -1,3 +1,13 @@
 module.exports = {
-  presets: ["@babel/preset-env"]
+  presets: [
+    [
+      "@babel/preset-env",
+      {
+        targets: {
+          node: 'current', // garante que o Babel converta para o formato correto para Node.js
+        },
+        modules: 'commonjs', // força o Babel a transformar módulos ES6 em CommonJS
+      }
+    ]
+  ]
 };

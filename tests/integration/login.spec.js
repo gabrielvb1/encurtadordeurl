@@ -12,12 +12,11 @@ describe("Testes de Signup e Login", () => {
     const response = await request(app)
       .post("/signup")
       .send({
-        name: "jose da silva",
-        email: "josedasilva@email.com",
+        name: "jose da silva de oliveira",
+        email: "josedasilvaoliveira2@email.com",
         password: "1234",
       });
-
-    // Validando a resposta
+    console.log(response.body)
     expect(response.status).toBe(200);
     expect(response.body).toHaveProperty("ok");
   });
@@ -29,7 +28,7 @@ describe("Testes de Signup e Login", () => {
         password: "1234",
       });
 
-    // Validando a resposta
+    console.log(response.body)
     expect(response.status).toBe(200);
     expect(response.body).toHaveProperty("token");
     expect(response.body).toHaveProperty("loggedUser");
