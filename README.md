@@ -1,6 +1,6 @@
-# **API de Redirecionamento de URLs**
+# **API de Encurtamento e Redirecionamento de URLs**
 
-Este projeto é uma API de redirecionamento de URLs construída com **Node.js**, **Express**, e **SQLite**. A API permite encurtar URLs, gerenciar URLs encurtadas, e redirecionar os usuários para as URLs originais. O projeto utiliza **Docker** e **Docker Compose** para simplificar a configuração e execução local.
+Este projeto é uma API de encurtamento e redirecionamento de URLs construída com **Node.js**, **Express**, e **SQLite**. A API permite encurtar URLs, gerenciar URLs encurtadas, e redirecionar os usuários para as URLs originais. O projeto utiliza **Docker** e **Docker Compose** para simplificar a configuração e execução local.
 
 ---
 
