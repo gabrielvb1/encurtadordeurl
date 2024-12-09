@@ -117,4 +117,10 @@ Após iniciar a API, você pode acessar a documentação Swagger em:
 
 [http://localhost:3033/api-docs/#/default](http://localhost:3033/api-docs/#/default)
 
+## **Testes**
+
+A API Conta com testes unitários de todos os endpoints. Para rodar os testes da API, no diretorio back-end,  execute o comando:
+  ```bash
+   npm test
+
   
