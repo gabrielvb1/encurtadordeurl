@@ -119,7 +119,7 @@ Após iniciar a API, você pode acessar a documentação Swagger em:
 
 ## **Testes**
 
-A API Conta com testes unitários de todos os endpoints. Para rodar os testes da API, no diretorio back-end,  execute o comando:
+A API Conta com testes unitários de todos os endpoints. Para rodar os testes da API execute o comando:
   ```bash
    npm test
 
